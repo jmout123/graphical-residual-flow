@@ -4,7 +4,7 @@ Implementation of a Residual flow that respects the dependency structure between
 
     y = x + g(x)
 
-where the spectral norm of the weight matricies of neural network $g(\cdot)$ are constrained such that the Lipschitz constant of $g(\cdot)$ is less than one. This ensures the invertibility of the flow.
+where the spectral norm of the weight matricies of neural network g, are constrained such that the Lipschitz constant of g is less than one. This ensures the invertibility of the flow.
 
 See the accompanying notebook for further details and examples of usage.
 
